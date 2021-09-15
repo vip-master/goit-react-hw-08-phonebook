@@ -1,0 +1,2 @@
+(this.webpackJsonphw8=this.webpackJsonphw8||[]).push([[7],{88:function(t,e,c){"use strict";c.r(e);c(0);var o=c(6),s=c(17),b=c(20),n=c(14),r=c(35),a=c(1);e.default=function(){return Object(s.b)()(Object(r.c)({isError:!0,text:"Page Not Found"})),Object(a.jsx)(o.a,{to:Object(n.b)(b.a,"home")})}}}]);
+//# sourceMappingURL=7.62b5bc0c.chunk.js.map
