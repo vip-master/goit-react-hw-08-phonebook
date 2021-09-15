@@ -2,16 +2,13 @@ import axios from 'axios';
 const URL = 'https://connections-api.herokuapp.com';
 
 const createRequest=async (token="",callback,path,data) => {
-  console.log('register -> ',path,data);
   axios.defaults.headers.common['Authorization']=token
 
   try{
     const res= data? await callback(path,data): await callback(path)
-    console.log('register: ',res)
     return res;
   }
   catch({response}){
-    console.log('fail: ',response)
     return {...response, isError: true}
   }
 };

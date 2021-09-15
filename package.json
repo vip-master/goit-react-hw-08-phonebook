@@ -2,7 +2,6 @@
   "name": "hw8",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vip-master.github.io/goit-react-hw-08-phonebook",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.14.1",
@@ -27,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "netlify deploy -p",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
